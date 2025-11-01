@@ -1,13 +1,15 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
 body {
     display: flex;
     flex-direction: column;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(214, 29, 29);
 }
 
 .header {
     display: flex;
     justify-content: space-between;
-    padding: 0 48px;
+    padding: 22px 48px;
     background-color: bisque;
 }
 
@@ -21,11 +23,59 @@ li {
     list-style: none;
 }
 
+a {
+    text-decoration: none;
+    color: rgb(214, 29, 29);
+    font-weight: bold;
+}
+
 .header img {
     border-radius: 20%;
 }
 
 .hero-section img {
-    width: 300px;
+    width: 450px;
     height: auto;
+    border-radius: 5%;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: center;
+    padding: 60px 180px;
+    background-color: bisque;
+    gap: 50px;
+
+}
+
+.hero-content {
+    flex:1;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-image {
+    flex:1;
+}
+
+.sign-up {
+    background-color: rgb(214, 29, 29);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 48px 48px;
+}
+
+.title {
+   text-align: center;
+   margin: 24px;
 }
